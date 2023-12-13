@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, 
+    Tahoma, sans-serif;
+    font-size: 2rem;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    background-color: #f7f6f4;
+    padding: 10px;
+    align-self: center !important;
+}
+.Discover li a{
+    text-decoration: none;
+    color: #6884aa;
+}
+.Discover {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+.need a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: #6884aa;
+}
+button{
+
+    border-radius: 4px !important;
+}
+.span{
+    color: #38a6f2;
+}
+.all li{
+    list-style-type: none;
+
+} 
+  .all li a{
+    text-decoration: none;
+    gap: 30px;
+    color: #6884aa;
+} 
+ .all a:hover{
+    opacity: 0.8;
+}
+
+.all li:hover{
+    opacity: 0.9;
+    color: #6884aa;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+/* .need button{
+    border: 1px solid gray;
+    border-radius: 9px;
+    width: 11%;
+    border: none;
+    background-color: gray;
+} */
+ #sign{
+    color: #da908f;
+} 
+
+
+.section{
+    background-color: #ece8d9;
+    padding-right: 0;
+    width: 100%;
+
+}
+.general{
+width: 1100px;
+height: 70vh;
+display: flex;
+gap: 40px;
+flex-direction: row;
+flex-wrap: nowrap;
+margin-bottom: 100px;
+
+}
+
+.sided{
+    width: 100%;
+    box-shadow:1px 1px 6px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.flyers , .stickers ,.mugs
+{
+    width: 100%;
+    box-shadow:1px 1px 6px;
+    text-align: center;
+}
+.Postcards{
+    width: 100%;
+    margin-left: 34px;
+    
+    text-align:center;
+    box-shadow: 1px 1px 6px black;
+        
+}
+.banner , .Posters , .Trifold{
+    width: 100%;
+    box-shadow:1px 1px 6px black;
+    text-align: center;
+}
+
+.generalthree{
+    display: flex;
+    width: 1100px;
+    margin-top: 50px;
+    gap: 40px;
+}
+.generalthree button {
+   background-color: #da908f;
+    border: none;
+    height: 7vh;
+    margin: 3px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    padding: 1em;
+}
+.generalthree button a{
+    color: #fff;
+    font-size: 0.9rem;
+}
+.land {
+    width: 100%;
+    box-shadow:1px 1px 6px;
+    text-align: center;
+    height: 75vh;
+    margin-left: 40px;
+}
+
+.courier ,.bags, .shirt
+{
+    width: 100%;
+    box-shadow:1px 1px 6px;
+    text-align: center;
+    height: 75vh;
+}
+
+.land p{
+    font-size:1rem;
+}
+
+
+
+.general button{
+    background-color: #da908f;
+    border: none;
+    height: 7vh;
+    margin: 3px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    padding: 0.4em;
+    margin: 0.5rem;
+}
+.general button a {
+    color: white;
+    font-size: 0.9rem;
+}
+.generaltwo{
+    width: 1100px;
+    height: 70vh;
+    color:white;
+    margin-bottom: 70px;
+    gap: 40px;
+    display: flex;}
+
+.generalthree a, 
+.generaltwo a , .general a{
+    color: #384a62;
+    text-decoration: none;
+}
+.generaltwo{
+width: 1100px;
+height: 70vh;
+color:white;
+border-bottom: 60px;
+gap: 40px;
+display: flex;
+}
+.generaltwo button{
+    background-color: #da908f;
+    border: none;
+    margin: 3px;
+    font-size: 0.8rem;
+    padding: 0.5em;
+    margin: 3px;
+    padding: 1em;
+    border-radius: 3px;
+}
+.pular{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+
+
+.divone{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+.divtwo{
+    padding: 50px;
+}
+.Announcing{
+    font-weight: bolder;
+    color: #2b3d49;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.press{
+    color: #da908f;
+}
+div p {
+    color: #6884aa;
+
+}
+.span2{
+    color: #da908f;
+}
+.get{
+    color: #da908f;
+    font-weight: bolder;
+}
+.business{
+    background-color: #2b3d49;
+    color:#fff;
+    border: none;
+    width: 50%;
+    height: 8vh;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    
+}
+
+input{
+    padding: 26px;
+    width: 90%;
+    border: none;
+    
+}
+.icon{
+margin-left: -100px;
+}
+.display{
+    display: flex;
+}
+.hand{
+width: 100%;
+}
+.divtwo{
+    width: 70%;
+}
+.main{
+    background-color:#f3b1cd;
+    height: 10vh;
+    text-align: center;
+    padding: 15px;
+}
+.see{
+    display: flex;
+    justify-content: space-between;
+    padding:20px ;
+}
+.generaltwo{
+    display: flex;
+    width: 1100px;
+}
+
+.generaltwo button a{
+    color: white;
+}
+
+.now{
+    text-decoration: underline;
+}
+.greet{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 700px;
+    gap: 40px;
+    margin-left: 50px;
+}
+.browse{
+    height: 65vh;
+    text-align: center;
+    box-shadow:1px 1px 6px;
+}
+.browse a , .stick a{
+    text-decoration: none;
+    color:#6884aa;
+}
+.browse button,.stick button{
+background-color: #da908f;
+padding: 0.6rem;
+border: none;
+border-radius: 5px;
+}
+.browse button a, .stick button a{
+color: white;
+text-decoration: none;
+    }
+.stick{
+    box-shadow:1px 1px 6px;
+    height: 65vh;
+    text-align: center;
+}
+.nigeria{
+    color: #2b3d49;
+    padding: 50px 40px;
+}
+.nigeria img{
+    margin-top: 10px;
+}
+.customer{
+    background-color: #edf6fd;
+}
+.kas:hover{transition: .5s;
+
+}
+h3{
+    padding: 2rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.img1, .img2, .img3 {
+padding-left: 2rem;
+background-color: white;
+height: 45vh;
+margin-bottom: 70px;
+padding:1.5rem 2rem;
+
+}
+.clock{
+    display: flex;
+}
+.footerone{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.count{
+    
+    font-size:2rem;
+    margin:50px 50px ;
+}
+     .footertwo{
+    background-color:#f7f6f5;
+padding-top: 100px;
+   padding-bottom: 70px;
+}
+.footertwo p{
+    font-family:Cambria, Cochin, 
+    Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    color: #2b3d49;
+    margin-left: 50px;
+}
+.article{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.here img{
+display: block;
+}
+.here a{
+    text-decoration: underline;
+    color: #6884aa;
+}
+.info li , .about li , .money li{
+    list-style-type: none;
+}
+.info li a , .about li a , .money li a{
+    text-decoration: none;
+    color: white;
+}
+.footerthree{
+    background-color: #384a62;
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 70px;
+justify-content: space-evenly;
+}
+.facebook li , .verve li , .delivery li{
+    list-style-type: none;
+}
+.facebook , .verve , .delivery{
+    gap: 10px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.lastfooter{
+    background-color: #cbcac8;
+    padding: 30px;
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+    .body{
+        width: 100%;
+    }
+    .section{
+        width: 100%;
+        padding: 3rem;
+    
+    }
+    .icon{
+    display: none;
+            
+        }
+    nav{
+        display: none;
+    }
+    .imageone{
+        width: 100%;
+        display: block;
+    }
+    li a{
+        width: 100%;
+        display: block;
+    }
+    .divtwo{
+        width: 100%;
+        padding: left 1rem;
+        display: block;
+    }
+    .Announcing{
+        font-size: 1.2rem;
+        margin-bottom: 0.6rem;
+        width: 100%;
+    }
+    ol a{
+        display: none;
+    }
+    .business{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+    .hand{
+        display:none;
+    }
+    .general{
+   padding:2rem ;
+    width: 100%;
+    display: block;
+    justify-content:space-evenly;
+    margin-bottom: 500px;
+}
+
+.sided  {
+    width: 100%;
+    margin-bottom: 90px;
+    margin-left: 0;
+    padding: 2rem;
+    }
+    .stickers , .flyers{
+        width: 100%;
+        margin-bottom: 100px;
+        padding: 2rem;
+    }
+    .mugs{
+        width: 100%;
+        margin-bottom: 300px;
+        padding: 2rem;
+    }
+.generaltwo{
+    display: block;
+    padding: 2rem;
+   margin-top: 1650px;
+   margin-bottom: 1700px;
+       width: 100%;
+}
+.Postcards {
+    width: 100%;
+    padding: 2rem;
+    align-self: center;
+    margin-bottom: 70px;
+    margin-left: 6px;
+}
+.banner , .Posters{
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 100px;
+}
+.Trifold{
+    padding: 2rem;
+    margin-left: 2px;
+}
+.generalthree{
+    width: 100%;
+    display: block;
+    padding: 2rem;
+    margin-top: 500px;
+}
+.land{
+    margin-top: -80px;
+    margin-left: 8px;
+    padding: 2rem;
+   
+}
+.shirt, .bags, .courier{
+    width: 100%;
+    height: 75vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 2rem;
+}
+.main{
+    background-color: 100%;
+    align-items: center;
+}
+.pular{
+    width: 100%;
+    font-size: 1rem;
+    margin-top: -20px;
+    justify-content: space-between;
+}
+.greet{
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    margin-left: 4px;
+}
+.browse{
+margin-bottom: 60px;
+padding: 2rem;
+
+}
+.stick{
+    padding: 2rem;
+}
+.container{
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    margin-left: 4px;
+}
+.img1 , .img2 , .img3{
+    align-items: center;
+padding-bottom: 1.5rem;
+}
+.footerone{
+    width: 100%;
+    display: block;
+
+}
+.clock{
+    margin: 20px;
+}
+.footertwo{
+    width: 100%;
+}
+.article{
+    display: block;
+    margin-left: 60px;
+ 
+}
+.here{
+    margin: 30px;
+}
+.footerthree{
+    display: block;
+}
+.us{
+    margin-left: 35px;
+}
+
+
+}
